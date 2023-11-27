@@ -1,9 +1,9 @@
 import openai
 import streamlit as st
 
-st.title("ChatGPT-PRUEBA ChatBot")
+st.title("ChatBot-Calcullin")
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = "gpt-3.5-turbo"
